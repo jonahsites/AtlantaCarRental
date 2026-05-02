@@ -8,49 +8,50 @@ const Footer = () => {
         <div className="flex flex-col gap-8">
           <div className="flex items-center gap-4">
             <img 
-              src="https://static.wixstatic.com/media/98d485_5ce05e2318fc4972bfc37e0537c73519~mv2.png/v1/crop/x_324,y_285,w_1265,h_733/fill/w_266,h_154,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/98d485_5ce05e2318fc4972bfc37e0537c73519~mv2.png" 
-              className="h-12 w-auto brightness-200" 
-              alt="Over The Edge Logo"
+              src="https://scontent-lga3-2.cdninstagram.com/v/t51.82787-19/524807291_17901894318235513_3113184206121784787_n.jpg?cb=8438d1d6-89aba764&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44MTYuYzIifQ&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFBri5t2xICSTHAidWK9gUgduEgAA0eDiyAlob-qAWDSUmqxnEWUrm2oCPJt1GA_DY9Vm8Ykf9fBxGbMhxjXLoB&_nc_ohc=l5X0qCgNtmMQ7kNvwGSU5hN&_nc_gid=K4HL3EjXarNDo1Hpzl52TQ&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af6HYb6oFEB2yiKSVc13OkoCcRZKO813cHQeQu6xjJzNUw&oe=69FC5689&_nc_sid=7a9f4b" 
+              className="h-16 w-auto rounded-full border border-[#C5A47E]/20" 
+              alt="Elysian Logo"
               referrerPolicy="no-referrer"
             />
           </div>
           <p className="max-w-xs text-white/30 text-[11px] leading-relaxed tracking-wider uppercase font-bold">
-            EST. 2024. COMMITTED TO PROVIDING CAR RENTALS OF THE HIGHEST QUALITY AND CLEANLINESS IN NJ & PHL.
+            CURATED EXCELLENCE SINCE 1998. PROVIDING UNPARALLELED LUXURY TRANSPORT SOLUTIONS WORLDWIDE.
           </p>
           <div className="flex gap-6 items-center">
-            <a href="#" className="text-white/20 hover:text-[#FF3131] transition-colors"><Instagram size={20} /></a>
-            <a href="#" className="text-white/20 hover:text-[#FF3131] transition-colors"><Facebook size={20} /></a>
-            <span className="text-[10px] font-bold font-sans text-white/40 tracking-widest">TIKTOK // PASSIVE_INCOME</span>
+            <a href="#" className="text-white/20 hover:text-[#C5A47E] transition-colors"><Instagram size={20} /></a>
+            <a href="#" className="text-white/20 hover:text-[#C5A47E] transition-colors"><Facebook size={20} /></a>
+            <span className="text-[10px] font-bold font-sans text-white/40 tracking-widest uppercase">Member of Global Concierge Alliance</span>
           </div>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-12 text-[10px] font-bold uppercase tracking-[0.2em]">
           <div className="flex flex-col gap-4">
-            <span className="text-[#FF3131]">LOCATIONS</span>
-            <span className="text-white/40">Blackwood, New Jersey</span>
-            <span className="text-white/40">Gloucester, New Jersey</span>
-            <span className="text-white/40">Philadelphia Int Airport (PHL)</span>
+            <span className="text-[#C5A47E]">PRESENCE</span>
+            <span className="text-white/40">London</span>
+            <span className="text-white/40">Paris</span>
+            <span className="text-white/40">New York</span>
+            <span className="text-white/40">Monaco</span>
           </div>
           <div className="flex flex-col gap-4">
-            <span className="text-[#FF3131]">PROTOCOLS</span>
-            <a href="#" className="hover:text-white transition-colors">Turo Rentals</a>
-            <a href="#" className="hover:text-white transition-colors">Private Rentals</a>
-            <a href="#" className="hover:text-white transition-colors">Chauffeur Service</a>
-            <a href="#" className="hover:text-white transition-colors">Box Truck & Vans</a>
+            <span className="text-[#C5A47E]">SERVICES</span>
+            <a href="#" className="hover:text-white transition-colors">The Fleet</a>
+            <a href="#" className="hover:text-white transition-colors">Private Escort</a>
+            <a href="#" className="hover:text-white transition-colors">Asset Logistics</a>
+            <a href="#" className="hover:text-white transition-colors">Concierge</a>
           </div>
           <div className="flex flex-col gap-4">
-            <span className="text-[#FF3131]">ESTABLISH</span>
-            <span className="flex items-center gap-2 font-syne italic"><Smartphone size={10} /> (609) 471-2238</span>
-            <span className="lowercase text-white/40">Overtheedgeservicesllc@gmail.com</span>
+            <span className="text-[#C5A47E]">INQUIRE</span>
+            <span className="flex items-center gap-2 font-serif italic text-sm tracking-normal">Global HQ // +44 20 7946 0958</span>
+            <span className="lowercase text-white/40">concierge@elysianfleet.com</span>
           </div>
         </div>
       </div>
       
       <div className="max-w-7xl mx-auto mt-24 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[9px] font-bold tracking-[0.4em] uppercase text-white/10 text-center md:text-left">
-        <span>© 2024 Over The Edge Services LLC // ALL RIGHTS RESERVED</span>
+        <span>© 2024 ELYSIAN PRIVATE FLEET // ALL RIGHTS RESERVED</span>
         <div className="flex gap-8">
-           <span>Secure_Portal_Active</span>
-           <span>Data_Stream_Stable</span>
+           <span>Terms_of_Service</span>
+           <span>Privacy_Policy</span>
         </div>
       </div>
     </footer>

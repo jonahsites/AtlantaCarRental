@@ -21,15 +21,15 @@ const StageHero = () => (
         transition={{ duration: 1 }}
         className="text-[11px] tracking-[1.5em] uppercase mb-8 border-b border-white/10 pb-4"
       >
-        Over The Edge Services
+        Elysian Private Fleet
       </motion.span>
       <motion.h2 
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="text-6xl md:text-9xl font-syne font-extrabold tracking-[0.2em] uppercase mb-16 px-12 leading-none"
+        className="text-6xl md:text-9xl font-serif tracking-[0.1em] uppercase mb-16 px-12 leading-tight"
       >
-        VOID <br /> <span className="font-light italic text-[#FF3131]">DRIVE</span>
+        EXCELLENCE <br /> <span className="font-light italic text-[#C5A47E]">DEFINED</span>
       </motion.h2>
       <motion.div 
         initial={{ opacity: 0 }}
@@ -37,11 +37,11 @@ const StageHero = () => (
         transition={{ delay: 0.8 }}
         className="flex gap-12 md:gap-24 items-center"
       >
-        <span className="text-xl md:text-2xl italic font-serif">Est. 2024</span>
-        <button className="w-16 h-16 border border-white/20 rounded-full flex items-center justify-center hover:bg-[#FF3131] hover:border-[#FF3131] hover:text-white transition-all duration-500 cursor-pointer">
-          <Zap size={20} fill="currentColor" />
+        <span className="text-xl md:text-2xl italic font-serif opacity-50">Since 1998</span>
+        <button className="w-16 h-16 border border-[#C5A47E]/30 rounded-full flex items-center justify-center hover:bg-[#C5A47E] hover:border-[#C5A47E] hover:text-black transition-all duration-500 cursor-pointer">
+          <div className="w-2 h-2 bg-[#C5A47E] rounded-full animate-pulse" />
         </button>
-        <span className="text-xl md:text-2xl italic font-serif">Elite Fleet</span>
+        <span className="text-xl md:text-2xl italic font-serif opacity-50">Global Reach</span>
       </motion.div>
     </div>
   </section>

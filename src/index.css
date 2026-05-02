@@ -7,6 +7,10 @@
   --font-display: "Montserrat", sans-serif;
   --font-syne: "Syne", sans-serif;
 
+  --color-gold: #C5A47E;
+  --color-gold-light: #E5C9A5;
+  --color-gold-dark: #A3855E;
+
   --animate-infinite-scroll: infinite-scroll 25s linear infinite;
 
   @keyframes infinite-scroll {
@@ -31,10 +35,18 @@
 }
 
 body {
-  @apply bg-black text-white antialiased selection:bg-[#FF3131] selection:text-white;
+  @apply bg-black text-white antialiased selection:bg-[#C5A47E] selection:text-black;
   font-family: var(--font-sans);
 }
 
-.font-syne {
-  font-family: var(--font-syne);
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
 }
