@@ -21,7 +21,7 @@ const StageHero = () => (
         transition={{ duration: 1 }}
         className="text-[11px] tracking-[1.5em] uppercase mb-8 border-b border-white/10 pb-4"
       >
-        Elysian Private Fleet
+        Atlanta Car Rentals
       </motion.span>
       <motion.h2 
         initial={{ opacity: 0, scale: 0.9 }}

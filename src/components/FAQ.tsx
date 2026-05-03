@@ -6,7 +6,7 @@ const FAQ = () => (
       <h2 className="text-6xl md:text-9xl font-serif uppercase tracking-tighter">I N F O .</h2>
       <div className="text-right font-serif italic">
         <span className="text-xs opacity-40 block">Global Concierge</span>
-        <span className="text-xs opacity-40 block">Membership_Details</span>
+        <span className="text-xs opacity-40 block">Membership Details</span>
       </div>
     </div>
     <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-1 px-1">

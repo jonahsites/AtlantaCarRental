@@ -43,7 +43,7 @@ const ServicesCards = () => (
   <section id="services" className="relative min-h-screen w-full p-8 md:p-12 md:p-24 overflow-hidden bg-[#0a0a0a] text-white">
     <div className="flex flex-col gap-12 h-full">
        <div className="flex justify-between items-baseline border-b border-white/10 pb-8">
-          <h2 className="text-4xl md:text-5xl font-serif italic tracking-tight uppercase">The Services_</h2>
+          <h2 className="text-4xl md:text-5xl font-serif italic tracking-tight uppercase">The Services</h2>
           <span className="text-[10px] uppercase tracking-[0.4em] opacity-40 font-bold overflow-hidden whitespace-nowrap hidden md:block">
             Bespoke Tiered Solutions // Since 1998 // Curated Fleet
           </span>
@@ -53,7 +53,7 @@ const ServicesCards = () => (
             <div key={i} className="bg-white/5 border border-white/10 p-8 md:p-12 flex flex-col justify-between group hover:border-[#C5A47E] transition-all duration-500 rounded-sm">
                <div className="flex flex-col gap-4">
                   <div className="flex justify-between items-center mb-4">
-                    <span className="text-[10px] text-[#C5A47E] uppercase tracking-widest font-bold">Protocol_{i+1}</span>
+                    <span className="text-[10px] text-[#C5A47E] uppercase tracking-widest font-bold">Protocol {i+1}</span>
                     <span className="text-[10px] opacity-20 uppercase tracking-widest font-black">Authorized</span>
                   </div>
                   <h3 className="text-3xl md:text-4xl font-serif italic leading-none group-hover:text-[#C5A47E] transition-colors">{item.n}</h3>

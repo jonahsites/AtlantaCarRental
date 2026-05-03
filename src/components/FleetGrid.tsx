@@ -6,7 +6,7 @@ const FleetGrid = () => (
     <div className="flex justify-between items-end mb-12">
       <div className="flex flex-col gap-2">
         <span className="text-[10px] uppercase tracking-[0.6em] text-[#C5A47E]">The Collection</span>
-        <h2 className="text-4xl md:text-6xl font-serif tracking-tight uppercase">CURATED_FLEET</h2>
+        <h2 className="text-4xl md:text-6xl font-serif tracking-tight uppercase">CURATED FLEET</h2>
       </div>
       <button className="text-xs font-bold uppercase border-b border-[#C5A47E] text-[#C5A47E] pb-2 cursor-pointer">View Archive</button>
     </div>
@@ -21,7 +21,7 @@ const FleetGrid = () => (
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
         <div className="absolute bottom-8 left-8">
            <span className="text-[10px] uppercase tracking-widest text-[#C5A47E] mb-2 block font-bold">Signature Series</span>
-           <span className="text-4xl font-serif italic">MAJESTIC_I</span>
+           <span className="text-4xl font-serif italic">MAJESTIC I</span>
         </div>
       </div>
       

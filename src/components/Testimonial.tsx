@@ -11,7 +11,7 @@ const Testimonial = () => (
        </h2>
        <div className="flex flex-col items-center gap-4">
           <div className="w-24 h-[1px] bg-[#C5A47E]" />
-          <span className="text-xs font-bold uppercase tracking-[0.8em] text-[#C5A47E]">Julian V. // PRIVATE_MEMBER</span>
+          <span className="text-xs font-bold uppercase tracking-[0.8em] text-[#C5A47E]">Julian V. // PRIVATE MEMBER</span>
        </div>
     </div>
   </section>

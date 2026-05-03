@@ -12,7 +12,7 @@ const Strips = () => (
             </span>
          </div>
          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 opacity-0 group-hover:opacity-100 transition-all translate-y-8 group-hover:translate-y-0 delay-100 duration-500">
-            <span className="text-[10px] not-italic tracking-[0.4em] uppercase font-bold">Discover_Archive</span>
+            <span className="text-[10px] not-italic tracking-[0.4em] uppercase font-bold">Discover Archive</span>
             <div className="w-10 h-10 rounded-full border border-[#C5A47E]/20 flex items-center justify-center">
               <ArrowRight size={20} className="-rotate-90 group-hover:translate-y-1 transition-transform group-hover:text-[#C5A47E]" />
             </div>

@@ -12,9 +12,9 @@ const Navbar = () => {
     >
       <div className="flex items-center gap-4">
         <img 
-          src="https://scontent-lga3-2.cdninstagram.com/v/t51.82787-19/524807291_17901894318235513_3113184206121784787_n.jpg?cb=8438d1d6-89aba764&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44MTYuYzIifQ&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFBri5t2xICSTHAidWK9gUgduEgAA0eDiyAlob-qAWDSUmqxnEWUrm2oCPJt1GA_DY9Vm8Ykf9fBxGbMhxjXLoB&_nc_ohc=l5X0qCgNtmMQ7kNvwGSU5hN&_nc_gid=K4HL3EjXarNDo1Hpzl52TQ&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af6HYb6oFEB2yiKSVc13OkoCcRZKO813cHQeQu6xjJzNUw&oe=69FC5689&_nc_sid=7a9f4b" 
+          src="https://scontent-lga3-3.cdninstagram.com/v/t51.82787-19/524807291_17901894318235513_3113184206121784787_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=106&cb=8438d1d6-89aba764&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MTYuQzMifQ%3D%3D&_nc_ohc=AzjBLgASdDoQ7kNvwFuX0v2&_nc_oc=Adr8BHZ2g_kO5d1z4mseDW1_34o5XYxp1vcwvBE9IA0qpoPO98zx0GOTI3s6ZQwPVGM35q-c0qMXdiCBqDcg8aNX&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=pCcRAgf4cVI6_gYBAqfaDQ&_nc_ss=7a22e&oh=00_Af4Mc6tFpV_0i0b6U2VnfL4HCqKsqUpOoPai-S5MS06D6g&oe=69FD3789" 
           className="h-12 md:h-16 w-auto rounded-full border border-[#C5A47E]/20 grayscale-0" 
-          alt="Elysian Logo" 
+          alt="Atlanta Car Rentals Logo" 
           referrerPolicy="no-referrer"
         />
       </div>
